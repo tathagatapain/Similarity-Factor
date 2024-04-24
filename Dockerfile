@@ -1,4 +1,4 @@
-FROM rocker/shiny:4
+FROM rocker/shiny:latest
 
 RUN R -e 'install.packages(c(\
                 "shiny", \
