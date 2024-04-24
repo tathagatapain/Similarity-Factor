@@ -28,6 +28,6 @@ RUN R -e 'install.packages(c(\
 )'
 
 WORKDIR /Users/tathagatapain
-COPY server.R server.R
+COPY app.R app.R
 COPY www www
-CMD Rscript server.R
+CMD Rscript app.
