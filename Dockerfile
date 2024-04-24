@@ -19,6 +19,8 @@ RUN R -e 'install.packages(c(\
                 "MASS", \
                 "knitr", \
                 "V8", \
+                "xml12", \
+                "httr", \
                 "kableExtra"), \
                 repo = "https://packagemanager.posit.co/cran/latest"\
 
