@@ -23,8 +23,7 @@ RUN R -e 'install.packages(c(\
                 "httr", \
                 "openssl", \
                 "kableExtra"), \
-                repo = "https://packagemanager.posit.co/cran/latest"\
-
+                repo = "https://packagemanager.rstudio.com/cran/__linux__/focal/latest"\
 )'
 
 WORKDIR /Users/tathagatapain
