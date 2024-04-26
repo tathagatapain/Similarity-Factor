@@ -1,4 +1,4 @@
-FROM rocker/shiny:4
+FROM alpine:edge
 
 RUN R -e 'install.packages(c(\
                 "shiny", \
@@ -29,4 +29,4 @@ RUN R -e 'install.packages(c(\
 WORKDIR /Users/tathagatapain
 COPY app.R app.R
 COPY www www
-CMD Rscript app.
+CMD Rscript app.R
