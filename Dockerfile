@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM hvalev/shiny-server-arm:devtools-latest
 
 RUN R -e 'install.packages(c(\
                 "shiny", \
